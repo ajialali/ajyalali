@@ -1,0 +1,22 @@
+اسم:ويندوز - LiteManager
+
+على:
+إرسال سير العمل:
+
+وظائف:
+ يبني:
+   اسم:ابدأ البناء...
+   يعمل على:ويندوز احدث
+   دقائق مهلة:9999
+
+خطوات:
+  -اسم:تنزيل وتثبيت الأساسيات
+   يجري: 
+      استدعاء-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10 github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat" /chamod12/lm_win-10_github_rdp/-/raw
+      تنزيلات cmd /c.bat
+
+  -اسم:الاتصال بـ LiteManager
+    يجري:cmd /c show.bat
+
+   اسم:عداد الوقت
+   يجري:cmd /c loop.bat
